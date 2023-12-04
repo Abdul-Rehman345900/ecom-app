@@ -1,7 +1,22 @@
-.footer-container{
+/* .footer-container{
     background-color: blue;
     display: flex;
-}
+} */
 
 /* height: 40px;
 width: 40px; */
+
+footer{
+    background-color:var(--backgroud_color_2);
+    margin: 0px 30px;
+    border-radius: 10px;
+    height: 10vh;
+}
+
+footer img{
+margin: 1rem 10px ;
+height: 40px;
+width: 40px;
+filter: invert(20%);  
+
+}

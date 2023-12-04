@@ -10,7 +10,7 @@
     height: 70vh;
 
 }
-
+ 
 .slide-content {
     position: absolute;
     bottom: 20px; 
@@ -19,13 +19,12 @@
     text-align: center;
     color: #fff;
     padding: 10px;
-  }
+  } 
   
   .caption {
     margin: 0;
     font-size: 18px;
   }
-  
   
   
 

@@ -2,17 +2,22 @@
     padding: 0;
     margin: 0;
     color: black;
-}
 
+}
 nav{
     height: 15vh;
     color:black;
-    background-color:#BEADFA;
+    background-color:white;
+    filter: blur(0.3px);
+    /* -webkit-filter: blur(8px); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 nav img{
     height: 50px;
     width: 80px;
-
 }
 
 nav ul li{

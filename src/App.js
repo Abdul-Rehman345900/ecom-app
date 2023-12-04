@@ -4,7 +4,7 @@ import Header from './components/Header';
 import  Data from './components/Data';
 import Slideimg from './components/slideimg';
 import  Floatbutton  from './components/floatbutton';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 import  Drawerr  from './components/drawerr';
 
 
@@ -29,7 +29,7 @@ export default function  App() {
     <Slideimg/>
     <Data/>
     <Floatbutton/> 
-    {/* <Footer/> */}
+    <Footer/>
     </div>
     )
 };

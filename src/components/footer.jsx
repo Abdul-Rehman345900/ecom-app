@@ -29,4 +29,31 @@
 //   );
 // };
 
-// export default Footer;
+
+
+import React from 'react';
+import '../style/footerimgs.css';
+
+let Footer = (props) => {
+
+  return (
+    
+
+<footer>
+<div>
+
+    <a href='https://mail.google.com/mail/u/0/#inbox' target='blank'>
+    <img src="./icons/mail-outline.svg" alt="" /></a>
+    <a href='https://www.instagram.com/' target='blank'>
+    <img src="./icons/logo-instagram.svg" alt="instagram icon" /></a>
+    <a href="https:/www.facebook.com/" target="blank">
+    <img src="./icons/logo-facebook.svg" alt="facbook icon" /></a>
+    <a href="https://web.whatsapp.com/" target="blank">
+    <img src="./icons/logo-whatsapp.svg" alt="WhatsApp Icon"/>
+</a>
+</div>
+
+</footer>
+)};
+
+export default Footer;

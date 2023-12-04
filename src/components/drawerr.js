@@ -15,7 +15,6 @@ const App = (props) => {
   const onChange = (e) => {
     setPlacement(e.target.value);
   };
-
   return (
     
     <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Divider, Flex } from 'antd';
+import { Card,Flex } from 'antd';
 import carddata from '../data/carddata.json';
 
 
@@ -23,8 +23,9 @@ carddata.map((product) => (
     backgroundColor: 'lightgray'
   }}
   cover={<img  alt="example" src={product.image} />}
->
+> 
   <Meta title={product.title} 
+  price={product.price}
   description={ product.desc}/>
 </Card>
 ))
